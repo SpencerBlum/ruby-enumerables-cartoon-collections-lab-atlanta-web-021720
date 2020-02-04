@@ -17,7 +17,7 @@ def long_planeteer_calls(array)# code an argument here
   # Your code here
   result = array.map.any?{|words|  words.length > 3 }
 
-  if !result
+  if result
     result = false
 
   end
