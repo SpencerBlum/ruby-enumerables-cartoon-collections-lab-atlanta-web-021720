@@ -15,7 +15,7 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
-  array.map.any?{|words|  words.ch > 3 }
+  array.map.any?{|words|  words.chr > 3 }
   
 end
 
