@@ -23,6 +23,6 @@ end
 
 def summon_captain_planet(array)
 
-  array.collect{|name| name.capitalize}
+  array.map{|name| name.capitalize}
 
 end
