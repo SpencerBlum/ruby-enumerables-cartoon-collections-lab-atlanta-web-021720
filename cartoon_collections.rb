@@ -15,13 +15,9 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
-  result = array.map.any?{|words|  words.length > 3 }
+  result = array.any?{|words|  words.length > 3 }
 
-  if result = true
-    result = false
-
-  end
-  result
+  
 end
 
 def find_the_cheese# code an argument here
